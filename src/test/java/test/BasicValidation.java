@@ -42,7 +42,7 @@ public class BasicValidation {
 
 	@Test
 	public void welcomeMessageValidation() {
-		String expectedResult = "Facebook Helps you";
+		String expectedResult = "Facebook helps you connect and share with the people in your life.";
 		String actualResult = driver.findElement(By.xpath("//h2[@class='_8eso']")).getText();
 
 		Reporter.log("Expected Result = " + expectedResult);
